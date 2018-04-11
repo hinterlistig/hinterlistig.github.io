@@ -41,16 +41,17 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.layout { position: relative;}
+.layout DIV { position: absolute; }
 .read{
     width: 33%;
-    float: left;
 }
 .listen{
     width: 34%;
-    margin-left: 34;
-    float: left;    
+    left: 33%;
 }
 .watch{
-    margin-left: 78%;
+    width: 33%;
+    right:0;
 }
 
