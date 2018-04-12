@@ -1,7 +1,3 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -45,10 +41,12 @@ ul.posts li {
 .layout DIV { position: absolute; }
 .read{
     width: 33%;
+    
 }
 .listen{
     width: 34%;
     left: 33%;
+    background-color: #f0f0f0 
 }
 .watch{
     width: 33%;
