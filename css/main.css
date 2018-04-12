@@ -37,7 +37,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.layout { position: relative;}
+.layout { 
+    position: relative;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 .layout DIV { position: absolute; }
 .read{
     width: 33%;
