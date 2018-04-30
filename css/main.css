@@ -45,6 +45,8 @@ ul.posts li {
 .now {
     font-style: italic;
     float: right;
+    position: absolute;
+    top:10;
 }
 .read{
     width: 33%;
