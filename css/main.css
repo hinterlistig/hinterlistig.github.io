@@ -42,6 +42,10 @@ ul.posts li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 .layout DIV { position: absolute; }
+.now {
+    font-style: italic;
+    float: right;
+}
 .read{
     width: 33%;
     
