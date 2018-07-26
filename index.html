@@ -2,7 +2,20 @@
 layout: default
 title: смотреть, слушать, читать
 ---
-			
+<script>
+$(function(){
+    $('a.read_open').click(function(){
+        $('.read').slideToggle();
+    });
+    $('a.watch_open').click(function(){
+        $('.watch').slideToggle();
+    });
+    $('a.listen_open').click(function(){
+        $('.listen').slideToggle();
+    });
+	
+});
+</script>			
 <div class="layout">
 	        <a class='read_open' href="#">Читаю</a>
 		<div class="read">
@@ -17,7 +30,7 @@ title: смотреть, слушать, читать
 				<li><strike>Олег Куваев</strike></li>
 			</ul>
 		</div>
-		<a class='read_open' href="#">Слушать</a>
+		<a class='listen_open' href="#">Слушать</a>
   
         	<div class="listen">
 			<ul>
@@ -26,7 +39,7 @@ title: смотреть, слушать, читать
 				<li>Музыка - Рамо, Куперен - <i>Упоминаются в Благоволительницах</i></li>
 			</ul>
 		</div>
-		<a class='read_open' href="#">Смотреть</a>
+		<a class='watch_open' href="#">Смотреть</a>
 
 		<div class="watch">
 			
