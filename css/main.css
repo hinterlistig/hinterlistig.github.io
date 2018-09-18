@@ -49,19 +49,27 @@ ul.posts li {
     top:10;
 }
 .read{
-    width: 33%;
-    background-color: #e9fec2;
+    width: 80%;
 }
 .listen{
-    width: 33%;
-    background-color: #00f000;
+    width: 80%;
 }
 .watch{
-    width: 33%;
-    background-color: #00f000;
+    width: 80%;
+}
+.done{
+    background-color: #e9fec2;
+}
+.undone{
+    left: 50%;
+    background-color: #ffe9e9;
 }
 
 /*
+.read{
+    width: 33%;
+    background-color: #e9fec2;
+}
 .listen{
     width: 34%;
     left: 33%;
