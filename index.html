@@ -5,21 +5,22 @@ title: смотреть, слушать, читать
 <script src="jquery-3.3.1.min.js"></script>
 <script>
 $(function(){
-    $('a.read_open').click(function(){
+    $('p.read_open').click(function(){
         $('.read').slideToggle();
     });
-    $('a.watch_open').click(function(){
+    $('p.watch_open').click(function(){
         $('.watch').slideToggle();
     });
-    $('a.listen_open').click(function(){
+    $('p.listen_open').click(function(){
         $('.listen').slideToggle();
     });
 	
 });
 </script>			
 <div class="layout">
-	        <a class='read_open' href="#">Читаю</a>
+	        <p class='read_open' href="#">Читаю</p>
 		<div class="read">
+			<div class="done">
 			<ul>
 				<li>Нил Стивенсон - рекомендовал Гаврилов</li>
 				<li>Евгений Водолазкин - Лавр</li>
@@ -28,8 +29,13 @@ $(function(){
 				<li>Музиль</li>
 				<li>Лагерквист - "Карлик и Варрава"</li>
 				<li>Козак</li>
-				<li><strike>Олег Куваев</strike></li>
 			</ul>
+			</div>
+			<div class="undone">
+                        <ul> 
+				<li><strike>Олег Куваев</strike></li>
+			</ul>	
+			</div>
 		</div>
 		<a class='listen_open' href="#">Слушать</a>
   
