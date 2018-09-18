@@ -53,6 +53,16 @@ ul.posts li {
     background-color: #00f000;
 }
 .listen{
+    width: 33%;
+    background-color: #00f000;
+}
+.watch{
+    width: 33%;
+    background-color: #00f000;
+}
+
+/*
+.listen{
     width: 34%;
     left: 33%;
     background-color: #f0f0f0;
@@ -61,4 +71,4 @@ ul.posts li {
     width: 33%;
     right:0;
 }
-
+*/
