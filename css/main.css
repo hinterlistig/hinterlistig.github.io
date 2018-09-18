@@ -37,11 +37,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.layout { 
+/*.layout { 
     position: relative;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-.layout DIV { position: absolute; }
+.layout DIV { position: absolute; } */
 .now {
     font-style: italic;
     float: right;
