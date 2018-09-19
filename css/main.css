@@ -53,34 +53,37 @@ ul.posts li {
 }
 .read{
     width: 80%;
+    display: table;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
 }
 .listen{
     width: 80%;
+    display: table;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
 }
 .watch{
     width: 80%;
+    display: table;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
 }
 .done{
-    left: 15%;
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
     background-color: #e9fec2;
 }
 .undone{
-    left: 65%;
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
     background-color: #ffe9e9;
 }
 
-/*
-.read{
-    width: 33%;
-    background-color: #e9fec2;
-}
-.listen{
-    width: 34%;
-    left: 33%;
-    background-color: #f0f0f0;
-}
-.watch{
-    width: 33%;
-    right:0;
-}
-*/
