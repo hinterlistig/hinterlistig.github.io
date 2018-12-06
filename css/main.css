@@ -77,13 +77,15 @@ ul.posts li {
     vertical-align: top;
     width: 50%;
     box-sizing: border-box;
-    background-color: #e9fec2;
+    background-color: #ffe9e9;
+    text-decoration: line-through;
 }
-.undone{
+.notdone{
+    
     display: table-cell;
     vertical-align: top;
     width: 50%;
     box-sizing: border-box;
-    background-color: #ffe9e9;
+    background-color: #e9fec2;
 }
 
